@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -10,9 +10,7 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-  AlertDialogTrigger,
 } from "../ui/alert-dialog";
-import { Button } from "../ui/button";
 import { toast } from "sonner";
 
 export function AskForFullScreen() {
@@ -23,15 +21,15 @@ export function AskForFullScreen() {
 
     if (elem.requestFullscreen) {
       elem.requestFullscreen();
-      // @ts-ignore
+      // @ts-expect-error
     } else if (elem.webkitRequestFullscreen) {
       /* Safari */
-      // @ts-ignore
+      // @ts-expect-error
       elem.webkitRequestFullscreen();
-      // @ts-ignore
+      // @ts-expect-error
     } else if (elem.msRequestFullscreen) {
       /* IE11 */
-      // @ts-ignore
+      // @ts-expect-error
       elem.msRequestFullscreen();
     }
 

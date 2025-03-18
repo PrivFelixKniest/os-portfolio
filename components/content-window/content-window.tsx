@@ -1,7 +1,7 @@
 "use client";
 import { useTaskStore } from "@/zustand/task-store";
 import { Button } from "../ui/button";
-import { Menu, X } from "lucide-react";
+import { X } from "lucide-react";
 import "./content-window.css";
 import Link from "next/link";
 import {
@@ -9,8 +9,6 @@ import {
   MenubarContent,
   MenubarItem,
   MenubarMenu,
-  MenubarSeparator,
-  MenubarShortcut,
   MenubarTrigger,
 } from "@/components/ui/menubar";
 

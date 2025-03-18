@@ -3,7 +3,6 @@
 import { useDraggable } from "@dnd-kit/core";
 import Image from "next/image";
 import { CSS } from "@dnd-kit/utilities";
-import { useState } from "react";
 
 export function Widget({
   img,
@@ -18,7 +17,7 @@ export function Widget({
   action?: () => void;
   id: string;
 }) {
-  const { attributes, listeners, setNodeRef, transform, node } = useDraggable({
+  const { attributes, listeners, setNodeRef, transform } = useDraggable({
     id: id,
   });
 

@@ -7,7 +7,6 @@ export function StartMenu() {
   return (
     <section
       aria-label="Os Startmenu open"
-      aria-expanded="true"
       className="overflow-hidden absolute -top-[22rem] left-0 h-[22rem] w-60"
     >
       <div className="bg-gray-950/50 p-2 backdrop-blur-2xl  rounded-t-xl flex flex-col gap-4 menu-animation w-full h-full">
