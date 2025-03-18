@@ -16,6 +16,7 @@ Stack
 - React (19)
 - Zustand
 - Shadcn/ui
+- dndkit
 - Vercel
 
 Using
