@@ -1,0 +1,89 @@
+.pulsing {
+  animation: pulsing 4s ease infinite;
+  opacity: 0.2;
+}
+
+@keyframes pulsing {
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.logo-animation {
+  animation: logo-animation 3s ease forwards;
+  opacity: 1;
+}
+
+@keyframes logo-animation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+
+.form-animation {
+  animation: form-animation 3s ease forwards;
+  overflow: hidden;
+}
+
+@keyframes form-animation {
+  0% {
+    height: 0px;
+  }
+  36% {
+    height: 0px;
+  }
+  80% {
+    height: 124px;
+  }
+}
+
+.form-animation .form-input-1 {
+  animation: form-input-animation 0.4s ease 1.2s forwards;
+  opacity: 0;
+  transform: scale(0);
+}
+.form-animation .form-input-2 {
+  animation: form-input-animation 0.4s ease 1.6s forwards;
+  opacity: 0;
+  transform: scale(0);
+}
+.form-animation .form-input-3 {
+  animation: form-input-animation 0.4s ease 2s forwards;
+  opacity: 0;
+  transform: scale(0);
+}
+
+@keyframes form-input-animation {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.login-fadeout {
+  animation: form-fadeout 1s ease forwards;
+  bottom: 0;
+}
+
+@keyframes form-fadeout {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 100vh;
+  }
+}
