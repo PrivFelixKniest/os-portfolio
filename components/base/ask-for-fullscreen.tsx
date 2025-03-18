@@ -21,15 +21,15 @@ export function AskForFullScreen() {
 
     if (elem.requestFullscreen) {
       elem.requestFullscreen();
-      // @ts-expect-error
+      // @ts-expect-error because of non standard documentElement parameters
     } else if (elem.webkitRequestFullscreen) {
       /* Safari */
-      // @ts-expect-error
+      // @ts-expect-error because of non standard documentElement parameters
       elem.webkitRequestFullscreen();
-      // @ts-expect-error
+      // @ts-expect-error because of non standard documentElement parameters
     } else if (elem.msRequestFullscreen) {
       /* IE11 */
-      // @ts-expect-error
+      // @ts-expect-error because of non standard documentElement parameters
       elem.msRequestFullscreen();
     }
 
