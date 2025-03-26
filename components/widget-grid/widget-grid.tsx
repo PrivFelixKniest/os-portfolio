@@ -8,6 +8,7 @@ import { useState } from "react";
 import { WaillWidget } from "./waill-widget";
 import { DeathPredictionWidget } from "./death-prediction-widget";
 import { SwipingHeaderWidget } from "./swiping-header-widget";
+import { PortfoliOSWidget } from "./portfolios-widget";
 
 type WidgetParents = {
   [droppableId: string]: string | null;
@@ -23,6 +24,7 @@ const widgetsById: WidgetsById = {
   wa: <WaillWidget id="wa" />,
   cd: <DeathPredictionWidget id="cd" />,
   sh: <SwipingHeaderWidget id="sh" />,
+  po: <PortfoliOSWidget id="po" />,
 };
 
 export default function WidgetGrid() {
@@ -30,8 +32,9 @@ export default function WidgetGrid() {
     "1": "tr",
     "2": "lb",
     "3": "wa",
-    "4": "cd",
+    "4": "po",
     "5": "sh",
+    "6": "cd",
   });
 
   function handleDragEnd(event: DragEndEvent) {

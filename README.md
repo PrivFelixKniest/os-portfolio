@@ -1,6 +1,8 @@
-# PortfoliOS
+# PortfoliOS (Work in Progress)
 
-PortfoliOS is an Operating System inspired web portfolio built using TypeScript and NextJS.
+PortfoliOS is an Operating System inspired web portfolio built using TypeScript and NextJS. It currently features the base of the application and some example project showcases, as well as some placeholders.
+
+Visit https://felixkniest.com to see a running deployment of this code base.
 
 ## Thoughts
 

@@ -32,9 +32,13 @@ export function StartMenu() {
           className="flex flex-col gap-2 overlfow-y-auto"
         >
           <StartMenuCard>
-            <Link href="/resume.pdf" download={true} target="_blank">
+            <Link
+              href="https://q85crflxoa.ufs.sh/f/d5mHhMklorR4ymxYinlkvY1DfuVMQ8iB0jmAhKJePqsSaUOE"
+              download={true}
+              target="_blank"
+            >
               <h1 className="font-bold">Resume</h1>
-              <p className="text-sm opacity-60">18. March 2025</p>
+              <p className="text-sm opacity-60">26. March 2025</p>
             </Link>
           </StartMenuCard>
           <StartMenuCard>

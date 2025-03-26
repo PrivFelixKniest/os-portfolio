@@ -13,7 +13,7 @@ const WidgetGrid = dynamic(
 
 export default function Home() {
   return (
-    <div className="h-[100vh] w-full bg-[url(/labeltrackrbg.png)] bg-center bg-cover text-white overflow-hidden">
+    <div className="h-[100vh] w-full bg-[url(/labeltrackrbg.webp)] bg-center bg-cover text-white overflow-hidden">
       <Login />
       <AskForFullScreen />
       <WidgetGrid />

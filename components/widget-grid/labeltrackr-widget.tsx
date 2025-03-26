@@ -7,7 +7,7 @@ export function LabeltrackrWidget({ id }: { id: string }) {
   return (
     <Widget
       title="labeltrackr, my SaaS App"
-      img="/labeltrackrbubble.png"
+      img="/labeltrackrbubble.webp"
       alt="labeltrackr widget app"
       action={() => {
         addOpenTask({
