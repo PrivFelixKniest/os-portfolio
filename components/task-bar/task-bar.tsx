@@ -7,11 +7,11 @@ export function TaskBar() {
   return (
     <section className="fixed bottom-0 w-full h-10 bg-black/30 backdrop-blur-lg flex items-center gap-2">
       <OSButton />
-      <div className="flex h-full items-center">
+      <div className="flex h-full items-center overflow-y-auto grow">
         {openTasks.map((task, idx) => {
           return (
             <button
-              className="h-full flex items-center px-2 hover:bg-white/5 transition-all cursor-pointer"
+              className="h-full flex items-center px-2 hover:bg-white/5 transition-all cursor-pointer text-nowrap"
               style={{
                 backgroundColor:
                   idx === selectedTask

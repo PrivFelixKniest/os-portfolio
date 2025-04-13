@@ -59,7 +59,7 @@ export function ContentWindow() {
             </Button>
           </div>
         </div>
-        <div className="grow">{task.content}</div>
+        <div className="grow overflow-y-hidden">{task.content}</div>
       </div>
     );
   }
