@@ -33,7 +33,7 @@ export function StartMenu() {
         >
           <StartMenuCard>
             <Link
-              href="https://q85crflxoa.ufs.sh/f/d5mHhMklorR4ymxYinlkvY1DfuVMQ8iB0jmAhKJePqsSaUOE"
+              href="https://q85crflxoa.ufs.sh/f/d5mHhMklorR453a7fLyc6GwkbUe7T8rahIZvj0mOsfgN3PWt"
               download={true}
               target="_blank"
             >
