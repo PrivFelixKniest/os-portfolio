@@ -38,7 +38,7 @@ export function StartMenu() {
               target="_blank"
             >
               <h1 className="font-bold">Resume</h1>
-              <p className="text-sm opacity-60">05th of May 2026</p>
+              <p className="text-sm opacity-60">5th of May 2026</p>
             </Link>
           </StartMenuCard>
           <StartMenuCard>
